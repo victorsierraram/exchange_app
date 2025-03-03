@@ -1,8 +1,8 @@
-# MyCurrency: Currency Conversion Platform
+# Exchange Currency APP: Currency Conversion Platform
 
 ## Overview
 
-MyCurrency is a web platform built with Django that provides real-time currency conversion and historical exchange rate data. It supports multiple currency providers and offers a RESTful API for integration with frontend or mobile applications.
+exchange_app is a web platform built with Django that provides real-time currency conversion and historical exchange rate data. It supports multiple currency providers and offers a RESTful API for integration with frontend or mobile applications.
 
 ## Features
 
@@ -74,3 +74,4 @@ MyCurrency is a web platform built with Django that provides real-time currency 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Written by victorsierraram.

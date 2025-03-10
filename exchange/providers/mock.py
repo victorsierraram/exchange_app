@@ -4,4 +4,5 @@ from .base import ExchangeRateProvider
 
 class MockExchangeRateProvider(ExchangeRateProvider):
     def get_exchange_rate(self, source_currency, exchanged_currency, valuation_date):
+        print("INSIDE MOCK EXCHANGE RATE PROVIDER")
         return round(random.uniform(0.8, 1.2), 6)

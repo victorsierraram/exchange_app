@@ -1,0 +1,49 @@
+services:
+  db:
+    image: postgres:15
+    container_name: exchange-db
+    restart: always
+    environment:
+      POSTGRES_DB: exchange_db
+      POSTGRES_USER: exchange_user
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - exchange_db_data:/var/lib/postgresql/data
+
+  django:
+    build: .
+    container_name: exchange-app
+    restart: always
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - DB_HOST=db
+
+  celery:
+    build: .
+    container_name: exchange-celery
+    command: celery -A config worker --loglevel=info
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+      - redis
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/0
+
+  redis:
+    image: redis:latest
+    container_name: exchange-redis
+    ports:
+      - "6379:6379"
+
+volumes:
+  exchange_db_data:

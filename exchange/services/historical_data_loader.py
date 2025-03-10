@@ -20,8 +20,10 @@ async def load_historical_data(provider, source_currency_code, exchanged_currenc
     await asyncio.gather(*tasks)
 
 async def fetch_and_store_rate(provider, source_currency, exchanged_currency, valuation_date):
+    print(f"PROVIDER: {provider}")
+    print(f"INPUTS : {source_currency.code} {exchanged_currency.code} {valuation_date}")
     rate_value = await get_exchange_rate_data(provider, source_currency.code, exchanged_currency.code, valuation_date)
-    
+    print(f"RATE value {rate_value}")
     if rate_value:
         await update_or_create_rate(source_currency, exchanged_currency, valuation_date, rate_value)
         print(f"SAVED: {valuation_date} {source_currency.code}/{exchanged_currency.code} = {rate_value}")
@@ -30,6 +32,9 @@ async def fetch_and_store_rate(provider, source_currency, exchanged_currency, va
 
 @sync_to_async
 def update_or_create_rate(source_currency, exchanged_currency, valuation_date, rate_value):
+    if isinstance(valuation_date, str):
+        valuation_date = datetime.strptime(valuation_date, "%Y-%m-%d").date()
+
     CurrencyExchangeRate.objects.update_or_create(
         source_currency=source_currency,
         exchanged_currency=exchanged_currency,

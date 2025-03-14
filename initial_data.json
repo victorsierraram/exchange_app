@@ -1,0 +1,1245 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "exchange",
+    "model": "currency"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "exchange",
+    "model": "currencyexchangerate"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "crontabschedule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "intervalschedule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "periodictask"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "periodictasks"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "solarschedule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "clockedschedule"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qsjxs9xb48yx2o1wvjdl47tgzhkhob89",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGll2Nv5R0nOGaNe7xgGUSHFSIe4OkVJA-2bmvdSA21qHrckyjKzOyqrT70aYHzLtgO843Wad52ldRtK7og_a9HVmeV4O9--gYqvfGnpxnXBKzlF2HMnEGPoOkhEPLpAF9gYwe-DoiyQka0sGIqRSIET1_gDSyDgM:1trcjy:9JE0EmwX3ZklpHO3oAD8upLaYUHX7aCNubiyiz3l2u4",
+    "expire_date": "2025-03-24T13:00:18.593Z"
+  }
+},
+{
+  "model": "exchange.currency",
+  "pk": 1,
+  "fields": {
+    "code": "EUR",
+    "name": "Euro",
+    "symbol": "€"
+  }
+},
+{
+  "model": "exchange.currency",
+  "pk": 2,
+  "fields": {
+    "code": "USD",
+    "name": "Dollar",
+    "symbol": "$"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 1,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-03-10",
+    "rate_value": "1.099367"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 2,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-03-09",
+    "rate_value": "1.111067"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 3,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-03-08",
+    "rate_value": "1.088739"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 4,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-03-07",
+    "rate_value": "0.919062"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 5,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-03-06",
+    "rate_value": "1.074798"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 6,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-03-05",
+    "rate_value": "1.120853"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 7,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-03-04",
+    "rate_value": "0.882986"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 8,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-03-03",
+    "rate_value": "1.049294"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 9,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-03-02",
+    "rate_value": "0.978654"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 10,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-03-01",
+    "rate_value": "1.079772"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 11,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-28",
+    "rate_value": "1.166638"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 12,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-27",
+    "rate_value": "1.125423"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 13,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-26",
+    "rate_value": "0.843817"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 14,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-25",
+    "rate_value": "0.980564"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 15,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-24",
+    "rate_value": "1.107328"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 16,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-23",
+    "rate_value": "0.950564"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 17,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-22",
+    "rate_value": "0.935915"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 18,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-21",
+    "rate_value": "0.996035"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 19,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-20",
+    "rate_value": "1.028438"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 20,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-19",
+    "rate_value": "1.054991"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 21,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-18",
+    "rate_value": "0.969191"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 22,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-17",
+    "rate_value": "1.175270"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 23,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-16",
+    "rate_value": "1.191525"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 24,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-15",
+    "rate_value": "1.033371"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 25,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-14",
+    "rate_value": "0.818474"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 26,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-13",
+    "rate_value": "1.182546"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 27,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-12",
+    "rate_value": "0.942785"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 28,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-11",
+    "rate_value": "1.125314"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 29,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-10",
+    "rate_value": "1.123687"
+  }
+},
+{
+  "model": "exchange.currencyexchangerate",
+  "pk": 30,
+  "fields": {
+    "source_currency": 1,
+    "exchanged_currency": 2,
+    "valuation_date": "2025-02-09",
+    "rate_value": "0.821929"
+  }
+},
+{
+  "model": "django_celery_beat.clockedschedule",
+  "pk": 1,
+  "fields": {
+    "clocked_time": "2025-03-10T13:03:14Z"
+  }
+},
+{
+  "model": "django_celery_beat.periodictasks",
+  "pk": 1,
+  "fields": {
+    "last_update": "2025-03-10T16:44:58.574Z"
+  }
+},
+{
+  "model": "django_celery_beat.periodictask",
+  "pk": 1,
+  "fields": {
+    "name": "RATES EUR USD",
+    "task": "exchange.tasks.load_historical_data_task",
+    "interval": null,
+    "crontab": null,
+    "solar": null,
+    "clocked": 1,
+    "args": "[\"mock\", \"EUR\", \"USD\", 30]",
+    "kwargs": "{}",
+    "queue": null,
+    "exchange": null,
+    "routing_key": null,
+    "headers": "{}",
+    "priority": null,
+    "expires": null,
+    "expire_seconds": null,
+    "one_off": true,
+    "start_time": null,
+    "enabled": false,
+    "last_run_at": null,
+    "total_run_count": 0,
+    "date_changed": "2025-03-10T16:44:58.573Z",
+    "description": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add currency",
+    "content_type": [
+      "exchange",
+      "currency"
+    ],
+    "codename": "add_currency"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change currency",
+    "content_type": [
+      "exchange",
+      "currency"
+    ],
+    "codename": "change_currency"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete currency",
+    "content_type": [
+      "exchange",
+      "currency"
+    ],
+    "codename": "delete_currency"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view currency",
+    "content_type": [
+      "exchange",
+      "currency"
+    ],
+    "codename": "view_currency"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add currency exchange rate",
+    "content_type": [
+      "exchange",
+      "currencyexchangerate"
+    ],
+    "codename": "add_currencyexchangerate"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change currency exchange rate",
+    "content_type": [
+      "exchange",
+      "currencyexchangerate"
+    ],
+    "codename": "change_currencyexchangerate"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete currency exchange rate",
+    "content_type": [
+      "exchange",
+      "currencyexchangerate"
+    ],
+    "codename": "delete_currencyexchangerate"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view currency exchange rate",
+    "content_type": [
+      "exchange",
+      "currencyexchangerate"
+    ],
+    "codename": "view_currencyexchangerate"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add crontab",
+    "content_type": [
+      "django_celery_beat",
+      "crontabschedule"
+    ],
+    "codename": "add_crontabschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change crontab",
+    "content_type": [
+      "django_celery_beat",
+      "crontabschedule"
+    ],
+    "codename": "change_crontabschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete crontab",
+    "content_type": [
+      "django_celery_beat",
+      "crontabschedule"
+    ],
+    "codename": "delete_crontabschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view crontab",
+    "content_type": [
+      "django_celery_beat",
+      "crontabschedule"
+    ],
+    "codename": "view_crontabschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add interval",
+    "content_type": [
+      "django_celery_beat",
+      "intervalschedule"
+    ],
+    "codename": "add_intervalschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change interval",
+    "content_type": [
+      "django_celery_beat",
+      "intervalschedule"
+    ],
+    "codename": "change_intervalschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete interval",
+    "content_type": [
+      "django_celery_beat",
+      "intervalschedule"
+    ],
+    "codename": "delete_intervalschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view interval",
+    "content_type": [
+      "django_celery_beat",
+      "intervalschedule"
+    ],
+    "codename": "view_intervalschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add periodic task",
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "codename": "add_periodictask"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change periodic task",
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "codename": "change_periodictask"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete periodic task",
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "codename": "delete_periodictask"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view periodic task",
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "codename": "view_periodictask"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add periodic task track",
+    "content_type": [
+      "django_celery_beat",
+      "periodictasks"
+    ],
+    "codename": "add_periodictasks"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change periodic task track",
+    "content_type": [
+      "django_celery_beat",
+      "periodictasks"
+    ],
+    "codename": "change_periodictasks"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete periodic task track",
+    "content_type": [
+      "django_celery_beat",
+      "periodictasks"
+    ],
+    "codename": "delete_periodictasks"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view periodic task track",
+    "content_type": [
+      "django_celery_beat",
+      "periodictasks"
+    ],
+    "codename": "view_periodictasks"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add solar event",
+    "content_type": [
+      "django_celery_beat",
+      "solarschedule"
+    ],
+    "codename": "add_solarschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change solar event",
+    "content_type": [
+      "django_celery_beat",
+      "solarschedule"
+    ],
+    "codename": "change_solarschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete solar event",
+    "content_type": [
+      "django_celery_beat",
+      "solarschedule"
+    ],
+    "codename": "delete_solarschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view solar event",
+    "content_type": [
+      "django_celery_beat",
+      "solarschedule"
+    ],
+    "codename": "view_solarschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add clocked",
+    "content_type": [
+      "django_celery_beat",
+      "clockedschedule"
+    ],
+    "codename": "add_clockedschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change clocked",
+    "content_type": [
+      "django_celery_beat",
+      "clockedschedule"
+    ],
+    "codename": "change_clockedschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete clocked",
+    "content_type": [
+      "django_celery_beat",
+      "clockedschedule"
+    ],
+    "codename": "delete_clockedschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view clocked",
+    "content_type": [
+      "django_celery_beat",
+      "clockedschedule"
+    ],
+    "codename": "view_clockedschedule"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$JTV6E3iwlb1ubDX2PrQUr8$1VP6aItp9KqiNhY+7uFsGhJzxFekBHlYgSDJOjMk3OM=",
+    "last_login": "2025-03-10T13:00:18.585Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-03-10T13:00:09.554Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-03-10T13:00:41.813Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "exchange",
+      "currency"
+    ],
+    "object_id": "1",
+    "object_repr": "Euro (EUR)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-03-10T13:00:56.706Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "exchange",
+      "currency"
+    ],
+    "object_id": "2",
+    "object_repr": "Dollar (USD)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-03-10T13:03:16.254Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "django_celery_beat",
+      "clockedschedule"
+    ],
+    "object_id": "1",
+    "object_repr": "2025-03-10 13:03:14+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-03-10T13:03:38.800Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "object_id": "1",
+    "object_repr": "RATES EUR USD: 2025-03-10 13:03:14+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-03-10T13:23:53.416Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "object_id": "1",
+    "object_repr": "RATES EUR USD: 2025-03-10 13:03:14+00:00",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-03-10T13:55:14.514Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "object_id": "1",
+    "object_repr": "RATES EUR USD: 2025-03-10 13:03:14+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Positional Arguments\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-03-10T16:43:51.084Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "object_id": "1",
+    "object_repr": "RATES EUR USD: 2025-03-10 13:03:14+00:00",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-03-10T16:44:58.579Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "object_id": "1",
+    "object_repr": "RATES EUR USD: 2025-03-10 13:03:14+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Positional Arguments\"]}}]"
+  }
+}
+]

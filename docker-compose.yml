@@ -15,7 +15,7 @@ services:
   django:
     build: .
     container_name: exchange-app
-    restart: always
+    command: ./entrypoint.sh
     volumes:
       - .:/app
     ports:
@@ -38,6 +38,7 @@ services:
       - redis
     environment:
       - CELERY_BROKER_URL=redis://redis:6379/0
+
 
   redis:
     image: redis:latest

@@ -142,7 +142,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CURRENCY_BEACON_API_KEY = "apikey"
-DEFAULT_EXCHANGE_PROVIDER = "currency_beacon"
+DEFAULT_EXCHANGE_PROVIDER = "mock"
 
 # Celery configuration
 CELERY_BROKER_URL = os.getenv('CELERY_BROKER_URL', 'redis://localhost:6379/0')

@@ -8,7 +8,7 @@ class CurrencyBeaconProvider(ExchangeRateProvider):
     API_KEY = settings.CURRENCY_BEACON_API_KEY
 
     def get_exchange_rate(self, source_currency, exchanged_currency, valuation_date):
-        print("INSIDE CURRENCY BEACON EXCHANGE RATE PROVIDER")
+        print(f"INSIDE CURRENCY BEACON EXCHANGE RATE PROVIDER with PARAMS: {source_currency, exchanged_currency, valuation_date}")
         url = f"{self.BASE_URL}/convert"
         params = {
             "from": source_currency,
@@ -16,7 +16,7 @@ class CurrencyBeaconProvider(ExchangeRateProvider):
             "date": valuation_date,
             "api_key": self.API_KEY
         }
-        print(f"PREVIOUS RESPONSE wit PARAMS {params}")
+        print(f"PREVIOUS RESPONSE with PARAMS {params}")
         response = requests.get(url, params=params)
         print(f"RESPONSE: {response}")
         if response.status_code == 200:

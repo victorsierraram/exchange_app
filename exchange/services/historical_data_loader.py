@@ -6,9 +6,10 @@ from exchange.services.exchange_service import get_currency_by_code
 from exchange.utils import get_exchange_rate_data
 
 async def load_historical_data(provider, source_currency_code, exchanged_currency_code, days):
+    print(f"TASK RECEIVE PARAMS {provider, source_currency_code, exchanged_currency_code, days}")
     source_currency = await get_currency_by_code(source_currency_code)
     exchanged_currency = await get_currency_by_code(exchanged_currency_code)
-
+    print(f"SELECTED CURRENCIES ARE {source_currency, exchanged_currency}")
     if not source_currency or not exchanged_currency:
         print(f"Currency not found: {source_currency_code} o {exchanged_currency_code}")
         return
